@@ -1,0 +1,29 @@
+{
+  "name": "alpha_pipe/mind_master",
+  "license": "proprietary",
+  "type": "library",
+  "description": "Mastermind Game",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Edward Rodriguez",
+      "email": "edwardjrp@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "AlphaPipe\\MasterMind\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^3.1"
+  },
+  "require": {
+    "illuminate/support": "~5.2"
+  }
+}
